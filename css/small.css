@@ -1,0 +1,25 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+*{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+h1 {color:rgb(238, 77, 165);}
+
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+button#hamburger {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
+
+}
+
+
+nav{background-color: #23cfa7;}
