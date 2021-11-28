@@ -35,3 +35,16 @@ nav a {
     font-weight: 700;
 }
 
+nav li.active {background-color: rgba(0,0,0,0.5);}
+nav a:hover {background-color: rgba(0,0,0,0.2);}
+nav ul.open {display: block;}
+nav ul {display:none;}
+
+footer{
+    background-color: grey;
+    font-size: small;
+}
+
+footer h2{
+
+}

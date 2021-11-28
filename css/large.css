@@ -1,6 +1,12 @@
 @media only screen and (min-width: 1200px) {
+
+    large-3 {width: 25%;}
     
     h1{color:silver;}
+
+    nav ul {margin-left: 2vw;}
+    nav li {width: auto;}
+    nav a {padding: .7rem 1rem;}
 
 
 
