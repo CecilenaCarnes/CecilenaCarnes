@@ -4,8 +4,6 @@
 <html lang="en">
 
 
-
-
 <head>
 <meta charset="utef-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,6 +16,7 @@
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
 
+    <script async="true" src="js/picturefill.js"></script>
 
     <title>Cecilena Carnes</title>
 
@@ -57,10 +56,22 @@
 Currently employed at <a href="https:www.jenzabar.com" target="_blank">Jenzabar</a> as a Principal Software Support Analyst.<br><br>
 I have tons of ideas and projects that I  consider exploring all the time and feel confident in my ability to see them through but I choose my family time rather than chasing a dollar, for now.
 
-
 </p>
 
-<img src=" images\CKC_1.jpeg" alt="Cecilena Carnes pictued sitting by the fireplace." title="Cecilena Carnes sitting by the fireplace." border="10"><br>
+<picture>
+    <source srcset=".\images\ckc_1.jpeg" media="(min-width:1200px)">
+    <source srcset=".\images\ckc_2.jpeg" media="(min-width:768px)">
+    <source srcset=".\images\small.jpeg">
+    <img srcset=".\images\small.jpeg" alt="description">
+
+
+</picture>
+
+<!--<div>-->
+    <!--<div class="pageimg">   -->
+      <!--<img src=" images\CKC_1.jpeg" alt="Cecilena Carnes pictued sitting by the fireplace." title="Cecilena Carnes sitting by the fireplace." ><br>-->
+    <!--</div>-->      
+</div>
 
 <footer>
     <small>Barbourville, KY</small>

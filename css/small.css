@@ -4,6 +4,18 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 h1 {color:rgb(238, 77, 165);}
 
+.page{display: flex;}
+
+.pageimg{
+    background-image: url ("images/ckc_1.jpg");
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    
+
+}
+
 body{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16px;
@@ -20,6 +32,8 @@ button#hamburger {
     padding: 0 30px 0 2vw;
 
 }
+
+
 
 /* THIS IS THE COLORS FOR THE PAGE NAV LIST*/
 
@@ -45,6 +59,3 @@ footer{
     font-size: small;
 }
 
-footer h2{
-
-}
