@@ -1,0 +1,19 @@
+
+body{
+    display: grid;
+    grid: "header" auto
+        "nav"       3em
+        "main"      auto
+        "aside"     auto
+        "footer"    auto /
+        1fr;
+
+}
+
+
+
+header {grid-area: header;}
+nav{grid-area: nav;}
+main{grid-area: main;}
+aside{grid-area:aside;}
+footer{grid-area:footer;}
