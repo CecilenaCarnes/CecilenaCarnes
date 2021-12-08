@@ -35,6 +35,15 @@ button#hamburger {
 }
 
 
+.buttoninq {
+    background-color: indigo;
+    border-radius: 2px;
+    color:ivory
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 1px 1px 1px 1px;
+}
+
 
 /* THIS IS THE COLORS FOR THE PAGE NAV LIST*/
 
