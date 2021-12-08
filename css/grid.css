@@ -10,6 +10,28 @@ body{
 
 }
 
+@media screen and (min-width: 768px){
+    body{
+        grid: "header header" auto
+                "nav nav"   3em
+                "main aside" auto
+                "footer footer" auto /
+                1fr 2fr;
+
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        grid: "header header" auto
+                "nav nav"   3em
+                "aside main" auto
+                "footer footer" auto /
+                1fr 2fr;
+
+    }
+}
+
 
 
 header {grid-area: header;}
