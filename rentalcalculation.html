@@ -1,0 +1,70 @@
+
+ 
+<!doctype html>
+<html>
+<head>
+        <meta charset="utef-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+        
+            <link href="css/normalize.css" rel="stylesheet">
+            <link href="css/small.css" rel="stylesheet">
+            <link href="css/medium.css" rel="stylesheet">
+            <link href="css/large.css" rel="stylesheet">
+           <!---- <link href="css/grid.css" rel="stylesheet">-->
+        
+            <script async="true" src="js/picturefill.js"></script>
+        
+            <title>Move In Calculation</title>
+<script>
+function add(){
+var a,b,c,d;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c=Number(document.getElementById("third").value*650.00);
+d= a + b + c ;
+document.getElementById("answer").value= d;
+}
+
+
+</script>
+
+</head>
+
+
+<nav class="clearfix" >
+    <div class ="row limited">
+        <button id="hamburger">&#9776</button>
+        <ul id="sitenav">
+         <li class = "active"><a href="index.html">BIO</a></li>
+         <li><a href="lukecarnestrucking.html">Luke Carnes Trucking</a></li>
+         <li><a href="carnesproperties.html">Carnes Properties</a></li>
+         <li><a href="experience.html">Experience</a></li>
+         <li><a href="degree.html">Degree</a></li>
+         <li><a href="future.html">Future</a></li>
+         <li><a href="consulting.html">Consulting</a></li>
+         <li><a href="hobbies.html">Hobbies</a></li>
+
+       </ul>
+    </div>
+</nav>
+
+
+<body>
+<h1>Calculate Cost for move in day!</h1>
+ 
+Enter Deposit <input id="first">
+<br>
+Enter Monthly Rental Amount <input id="second">
+<br>
+Enter number of pets <input id="third">
+<br>
+<button onclick="add()">Add</button>
+<br>
+Amount due at move in: $<input id="answer">
+</body>
+<script src="./js/sitenav.js"></script>
+
+</html>

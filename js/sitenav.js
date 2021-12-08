@@ -6,3 +6,13 @@ x.onclick= togglemenu;
 
 
 
+/*begin form js*/
+
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+

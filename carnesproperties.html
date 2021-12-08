@@ -17,6 +17,8 @@
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
 
 
     <title>Cecilena Carnes | Carnes Properties</title>
@@ -76,6 +78,55 @@ Carnes Properties was started in 2017 with the purchase of 2 properties and 4 ho
 
 
 <script src="js/sitenav.js"></script>
+
+
+
+
+<div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+
+
+
+  <div class="content-wrapper">
+	<div id="userinput">
+    	<form id="Gridform">
+        	<input type="text" class="e-input" id="multiplier" placeholder="Enter number 1-9" />
+        	<button id="submit">Submit</button>
+    	</form>
+	</div>
+	<div id="mtable" style="display:none">
+    	<button id="close">Close</button>
+    	<div id="Grid">
+    	</div>
+	</div>
+</div>
+
+
+
+  
+
+
 
 </body>
 
