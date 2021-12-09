@@ -20,6 +20,7 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    word-wrap: normal;
 }
 
 
@@ -35,10 +36,10 @@ button#hamburger {
 }
 
 
-.buttoninq {
+button#mybutton {
     background-color: rgb(135, 161, 37);
     border-radius: 2px;
-    color:rgb(14, 14, 12)
+    color:rgb(14, 14, 12);
     font-size: 1.5rem;
     cursor: pointer;
     padding: 1px 1px 1px 1px;
@@ -63,7 +64,7 @@ nav a {
 }
 
 nav li.active {background-color: rgba(0,0,0,0.5);}
-nav a:hover {background-color: rgba(32, 18, 18, 0.2);}
+nav a:hover {background-color: rgba(32, 18, 18, 5);}
 nav ul.open {display: block;}
 nav ul {display:none;}
 

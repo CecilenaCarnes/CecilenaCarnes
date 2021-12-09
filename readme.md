@@ -20,11 +20,13 @@ CSS
 
 
 
-
 JavaScript
     sitenav.js - Navigation|Hamburger Button expands and collapses the navigation on all screen sizes. Uses toogle options onclick and open.
-    picturefill.js - Used to make the photos change and be responsive for different screen sizes.
+    picturefill.js - Used to make the photos change for the different screen sizes.
+    carnesproperties.html button contains javascript allowing redirect to the rentalcalculation page. Can I afford a unit? is the button below the 
+     hamburger menu.
     rentalcalculation.html contains javascript to calculate a value and display it to the user.
+
 
 
 

@@ -18,7 +18,8 @@
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
-    <link href="css/form.css" rel="stylesheet">
+   
+    <script async="true" src="js/picturefill.js"></script>
 
 
     <title>Cecilena Carnes | Carnes Properties</title>
@@ -34,7 +35,7 @@
 </header>
 
 
-<aside>
+
     <nav class="clearfix" >
         <div class ="row limited">
             <button id="hamburger">&#9776</button>
@@ -42,38 +43,47 @@
                 <li><a href="index.html">BIO</a></li>
                 <li><a href="lukecarnestrucking.html">Luke Carnes Trucking</a></li>
                 <li class = "active"><a href="carnesproperties.html">Carnes Properties</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="degree.html">Degree</a></li>
-                <li><a href="future.html">Future</a></li>
-                <li><a href="consulting.html">Consulting</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
    
               </ul>
         </div>
     </nav>
 
-</aside>
+
+
+
 
 
 <main>
 
+    <button id="myButton" class="float-left submit-button button#mybutton" >Can I afford a unit?</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "rentalcalculation.html";
+    };
+</script>
 
 <br><br>
 
- <p>
-Carnes Properties was started in 2017 with the purchase of 2 properties and 4 homes.  Apartment complex coming in 2025.<br>
+
+Carnes Properties, LLC was started in 2017 with the purchase of 2 properties and 4 homes.  Apartment complex coming in 2025.<br>
 Since the purchase date each unit has been completely remodeled inside, new metal roofs installed and porches added to each entrance.
 <br>
 <br>
-<button class="buttoninq">Can I afford a unit?</button>
-</p>
-
 </main>
 
+
 <aside>
-<img src=" images\yellowtrailer.jpeg" alt="Photo of a rental property." title="Unit 12 on Davenport Lane." border="10"><br>
 
 
+<picture>
+    <source srcset=".\images\yellowtrailer.jpeg" media="(min-width:1200px)">
+    <source srcset=".\images\yellowtrailer.jpeg" media="(min-width:768px)">
+    <source srcset=".\images\yellowtrailer.jpeg">
+    <img srcset=".\images\small.jpeg" alt="Photo of a rental property." title="Unit 12 on Davenport Lane.">
+
+   </picture>
+      
 
 </aside>
 
@@ -86,15 +96,6 @@ Since the purchase date each unit has been completely remodeled inside, new meta
 
 
 <script src="js/sitenav.js"></script>
-
-
-
-
-
- 
-
-
-
 
 </body>
 
