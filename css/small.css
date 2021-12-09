@@ -36,9 +36,9 @@ button#hamburger {
 
 
 .buttoninq {
-    background-color: indigo;
+    background-color: rgb(135, 161, 37);
     border-radius: 2px;
-    color:ivory
+    color:rgb(14, 14, 12)
     font-size: 1.5rem;
     cursor: pointer;
     padding: 1px 1px 1px 1px;

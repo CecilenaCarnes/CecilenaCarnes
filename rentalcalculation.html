@@ -23,7 +23,7 @@ function add(){
 var a,b,c,d;
 a=Number(document.getElementById("first").value);
 b=Number(document.getElementById("second").value);
-c=Number(document.getElementById("third").value*650.00);
+c=Number(document.getElementById("third").value*1000.00);
 d= a + b + c ;
 document.getElementById("answer").value= d;
 }
@@ -61,10 +61,28 @@ Enter Monthly Rental Amount <input id="second">
 <br>
 Enter number of pets <input id="third">
 <br>
-<button onclick="add()">Add</button>
+<button onclick="add()">Calculate</button>
 <br>
-Amount due at move in: $<input id="answer">
+<h4>Amount due at move in: $<input id="answer"></h4>
+If this fits within your budget feel free to contact us by email: cecilenacarnes@gmail.com
+<br><br><br>
+Cost Key:
+<br>
+Monthly Rent: 650.00
+<br>
+Deposit:     1000.00
+<br>
+Pet Deposit per Pet: 1000.00
+
+
+
+
+
 </body>
+
+
+
+
 <script src="./js/sitenav.js"></script>
 
 </html>
