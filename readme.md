@@ -15,6 +15,7 @@ There are 3 files that do a portion of this Small.css, Medium.css and Large.css.
 
 
 CSS
+
     1- Name Color changes based on screen size. 
     2- Navigation menu expands and collapses on click of the hamburger button.
     3- Grid content changes from single column to double column based on screen size.  Max screen size results in columns being reversed.
@@ -23,6 +24,7 @@ CSS
 
 
 JavaScript
+
     1- sitenav.js - Navigation|Hamburger Button expands and collapses the navigation on all screen sizes. Uses toogle options onclick and open.
     2- picturefill.js - Used to make the photos change for the different screen sizes.
     3- carnesproperties.html button contains javascript allowing redirect to the rentalcalculation page. Can I afford a unit? is the button below the hamburger menu.
