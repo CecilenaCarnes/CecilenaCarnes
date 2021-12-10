@@ -29,6 +29,7 @@ JavaScript
     2- picturefill.js - Used to make the photos change for the different screen sizes.
     3- carnesproperties.html button contains javascript allowing redirect to the rentalcalculation page. Can I afford a unit? is the button below the hamburger menu.
     4- rentalcalculation.html contains javascript to calculate a value and display it to the user.
+        *Rental Calculation page is only available from the Carnes Properties page by clicking Can I afford a unit? button.
 
 
 
