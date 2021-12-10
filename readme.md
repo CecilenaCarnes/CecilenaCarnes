@@ -3,7 +3,7 @@ Cecilena Carnes Portfolio
 This project is an about me, my business ventures thus far, interests and possible future endevors.  I tend to squeeze the most out of a minute that I can and joining CodeKentucky was no exception.  I am sure by the final push for submission this will not meet my design standards but I do hope that it meets the requirements to move into the next class.
 
 
-
+The BIO page was my main focus along with the rentalcalculation.html that contains the javascript calculation.
 
 
 Media Queries - Site adjusts for 3 seperate size screens.  

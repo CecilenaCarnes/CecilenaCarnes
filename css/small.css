@@ -16,12 +16,15 @@ h1 {color:rgb(238, 77, 165);}
 
 }
 
+
 body{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16px;
     font-weight: 300;
     word-wrap: normal;
+    position: relative;
 }
+
 
 
 button#hamburger {
